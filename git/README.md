@@ -43,6 +43,10 @@
   * `--reset-author` : 含义是将Author(作者)的ID同步修改, 否则只会影响提交者(Commit)的ID.
   * `-a -m` : 偷懒式提交, 不用预先执行 `git add`
 
+## git revert
+
+运行该命令相当于将HEAD提交反向再提交一次.
+
 ## git status
 
 精简状态输出
@@ -178,6 +182,24 @@ e29f924 develop@{0}: reset: moving to HEAD^
  HEAD is now at e29f924 does develop follow this new commit?
 ```
 
+### git rebase
+
+* `git rebase --onto <newbase> <since> <till>`
+  1. 首先会执行 `git checkout` 切换到 `<till>` , 如果操作在detached HEAD(分离指针头)状态进行, 当rebase结束后, 还要对当前分支执行重置以实现rebase结果在分支中生效.
+  2. 将`<since>..<till>`所表示的提交范围写到一个临时文件中(包括 `<till>` 的所有历史提交排除 `<since>` 及 `<since>` 的历史提交后形成的版本范围.)
+  3. 将当前分支强制重置( `git reset --hard` )到 `<newbase>` .
+  4. 从保存的临时文件中的提交列表中, 将提交逐一按顺序重新提交到重置之后的分支上.
+  5. 如果遇到提交已经在分支中包含, 则跳过该提交
+  6. 如果在提交过程遇到冲突, 则rebase过程暂停, 用户解决冲突后, 执行 `git rebase --continue` 继续rebase操作. 或者执行 `git rebase --skip` 跳过此提交. 或者执行 `git rebase -- abort` 就此终止rebase操作切换到rebase前的分支上.
+
+* `git rebase -i` : 交互式rebase操作
+  1. `reword` : 简写为r. 在rebase时会应用此提交, 但是在提交时候允许用户修改提交说明.
+  2. `edit` : 简写为e. 在rebase时应用此提交, 当时会在应用后暂停rebase, 提示用户使用 `git commit --amend` 执行提交, 以便对提交进行修补. 当用户执行commit完成提交后, 还需要执行 `git rebase --continue` 继续rebase操作. 用户在rebase暂停状态下可以执行多次提交, 从而实现把一个提交分解为多个提交.
+  3. `squash` : 简写为s. 该提交会与前面的提交压缩为一个.
+  4. `fixup` : 简写为f. 类似动作squash, 但是此提交的提交说明被丢弃.
+  5. `exec` : 简写为x. 可以通过修改编辑任务文件中的各个提交的先后循序, 进而改变最终rebase后提交的先后顺序.
+  6. `drop` : 简写为d. 可以修改rebase任务文件, 删除包含相应提交的行, 这样该提交就不会被应用, 进而在rebase后的提交中被删除.
+
 ## 删除
 
 * `git rm` : 删除并且更新暂存区.
@@ -200,9 +222,12 @@ e29f924 develop@{0}: reset: moving to HEAD^
 
 * `git cat-file -p HEAD^:**`
 
-## 备份
+## 克隆
 
-* `git clone demo demo-step-1` : 备份一份demo命名为demo-step-1
+* `git clone <repository> <directory>`
+  > `git clone demo demo-step-1` : 克隆一份demo命名为demo-step-1
+* `git clone --bare <repository> <directory.git>`
+* `git clone --mirror <repository> <directory.git>`
 
 ## 版本范围标识
 
@@ -242,6 +267,16 @@ Would remove detached-commit.txt
 $ git clean -fd                                                   
 Removing detached-commit.txt
 ```
+
+## 丢弃历史
+
+用A^{tree}语法访问里程碑A对应的目录树
+
+```
+$ git cat-file -p A^{tree}
+
+```
+
 
 ## 文件归档
 
