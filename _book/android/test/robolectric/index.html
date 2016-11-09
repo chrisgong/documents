@@ -1,0 +1,894 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Robolectric | </title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.7">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../../../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../../../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../../../gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="../../../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="../../../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../../../android/androidstudio/index.html" />
+    
+    
+    <link rel="prev" href="../../../android/test/mockito/mockito.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book"
+        data-level="2.8.3"
+        data-chapter-title="Robolectric"
+        data-filepath="android/test/robolectric/README.md"
+        data-basepath="../../.."
+        data-revision="Wed Nov 09 2016 16:37:47 GMT+0800 (CST)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../../../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        总览
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="algrithm.html">
+            
+            <span><b>1.</b> 算法</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="android/index.html">
+            
+                
+                    <a href="../../../android/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        Android
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="android/androidannotations/aa.html">
+            
+                
+                    <a href="../../../android/androidannotations/aa.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        Android注解框架
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="android/androidchart/MPAndroidChart.html">
+            
+                
+                    <a href="../../../android/androidchart/MPAndroidChart.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        Android图表库
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="android/animation/index.html">
+            
+                
+                    <a href="../../../android/animation/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                        Android动画
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="android/lombok/lombok.html">
+            
+                
+                    <a href="../../../android/lombok/lombok.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.</b>
+                        
+                        Lombok
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="android/realm/index.html">
+            
+                
+                    <a href="../../../android/realm/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.5.</b>
+                        
+                        Realm
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="android/retrofit/retrofit.html">
+            
+                
+                    <a href="../../../android/retrofit/retrofit.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.6.</b>
+                        
+                        Retrofit
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="android/rx/index.html">
+            
+                
+                    <a href="../../../android/rx/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.7.</b>
+                        
+                        Rx
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.7.1" data-path="android/rx/rxjava/rxjava.html">
+            
+                
+                    <a href="../../../android/rx/rxjava/rxjava.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.7.1.</b>
+                        
+                        RxJava
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7.2" data-path="android/rx/rxbinding/rxbinding.html">
+            
+                
+                    <a href="../../../android/rx/rxbinding/rxbinding.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.7.2.</b>
+                        
+                        RxBinding
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7.3" data-path="android/rx/rxbus/rxbus.html">
+            
+                
+                    <a href="../../../android/rx/rxbus/rxbus.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.7.3.</b>
+                        
+                        RxBus
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8" data-path="android/test/index.html">
+            
+                
+                    <a href="../../../android/test/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.8.</b>
+                        
+                        测试框架
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.8.1" data-path="android/test/espresso/index.html">
+            
+                
+                    <a href="../../../android/test/espresso/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.8.1.</b>
+                        
+                        Android UI测试框架
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.8.1.1" data-path="android/test/espresso/espresso-cheat-sheet-2.1.0.html">
+            
+            <span><b>2.8.1.1.</b> 使用手册</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.1.2" data-path="android/test/espresso/state.html">
+            
+                
+                    <a href="../../../android/test/espresso/state.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.8.1.2.</b>
+                        
+                        保存和恢复状态
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.2" data-path="android/test/mockito/mockito.html">
+            
+                
+                    <a href="../../../android/test/mockito/mockito.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.8.2.</b>
+                        
+                        Mockito
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.8.3" data-path="android/test/robolectric/index.html">
+            
+                
+                    <a href="../../../android/test/robolectric/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.8.3.</b>
+                        
+                        Robolectric
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9" data-path="android/androidstudio/index.html">
+            
+                
+                    <a href="../../../android/androidstudio/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.9.</b>
+                        
+                        Android Stuido插件
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="architecture/index.html">
+            
+                
+                    <a href="../../../architecture/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        架构
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="architecture/mvp/index.html">
+            
+                
+                    <a href="../../../architecture/mvp/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        MVP
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.1" data-path="architecture/mvp/mvp.html">
+            
+                
+                    <a href="../../../architecture/mvp/mvp.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.1.</b>
+                        
+                        Google Demo
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="designpattern/index.html">
+            
+                
+                    <a href="../../../designpattern/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        设计模式
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1" data-path="designpattern/SRP.html">
+            
+                
+                    <a href="../../../designpattern/SRP.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.</b>
+                        
+                        单一职责原则
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="designpattern/ISP.html">
+            
+                
+                    <a href="../../../designpattern/ISP.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.</b>
+                        
+                        接口隔离原则
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="designpattern/LSP.html">
+            
+                
+                    <a href="../../../designpattern/LSP.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.3.</b>
+                        
+                        里氏替换原则
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="designpattern/DIP.html">
+            
+                
+                    <a href="../../../designpattern/DIP.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.4.</b>
+                        
+                        依赖倒置原则
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="git/index.html">
+            
+                
+                    <a href="../../../git/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                        Git
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6" data-path="gradle.html">
+            
+            <span><b>6.</b> Gradle</span>
+            
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../../" ></a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="robolectric">Robolectric</h1>
+<h2 id="&#x5173;&#x4E8E;robolectric">&#x5173;&#x4E8E;Robolectric</h2>
+<p>&#x4F5C;&#x4E3A;&#x4E00;&#x4E2A;&#x8F6F;&#x4EF6;&#x5F00;&#x53D1;&#x653B;&#x57CE;&#x72EE;&#xFF0C;&#x65E0;&#x8BBA;&#x4F60;&#x591A;&#x4E0D;&#x5C51;&#x591A;&#x6392;&#x65A5;&#x5355;&#x5143;&#x6D4B;&#x8BD5;&#xFF0C;&#x5B83;&#x90FD;&#x662F;&#x4E00;&#x79CD;&#x975E;&#x5E38;&#x597D;&#x7684;&#x5F00;&#x53D1;&#x65B9;&#x5F0F;&#xFF0C;&#x4E14;&#x4E0D;&#x8C08;TDD&#xFF0C;&#x4E3A;&#x81EA;&#x5DF1;&#x5199;&#x7684;&#x4EE3;&#x7801;&#x8D1F;&#x8D23;&#xFF0C;&#x6D4B;&#x8BD5;&#x81EA;&#x5DF1;&#x5199;&#x7684;&#x4EE3;&#x7801;&#xFF0C;&#x5728;&#x81EA;&#x5DF1;&#x529B;&#x6240;&#x80FD;&#x53CA;&#x7684;&#x8303;&#x56F4;&#x5185;&#x63D0;&#x9AD8;&#x4EA7;&#x54C1;&#x7684;&#x8D28;&#x91CF;&#xFF0C;&#x672C;&#x662F;&#x7406;&#x6240;&#x5F53;&#x7136;&#x7684;&#x4E8B;&#x60C5;&#x3002;</p>
+<p>&#x90A3;&#x4E48;&#x5982;&#x4F55;&#x6D4B;&#x8BD5;&#x81EA;&#x5DF1;&#x5199;&#x7684;&#x4EE3;&#x7801;&#xFF1F;&#x70B9;&#x70B9;&#x754C;&#x9762;&#xFF0C;&#x6D4B;&#x6D4B;&#x529F;&#x80FD;&#x56FA;&#x7136;&#x662F;&#x4E00;&#x79CD;&#x65B9;&#x5F0F;&#xFF0C;&#x4F46;&#x662F;&#x5982;&#x679C;&#x80FD;&#x7559;&#x4E0B;&#x4E00;&#x6BB5;&#x4E00;&#x52B3;&#x6C38;&#x9038;&#x7684;&#x6D4B;&#x8BD5;&#x4EE3;&#x7801;&#xFF0C;&#x8BA9;&#x4EE3;&#x7801;&#x6D4B;&#x8BD5;&#x4EE3;&#x7801;&#xFF0C;&#x5C82;&#x4E0D;&#x4E24;&#x5168;&#x5176;&#x7F8E;&#xFF1F;&#x6240;&#x4EE5;&#xFF0C;&#x5199;&#x597D;&#x5355;&#x5143;&#x6D4B;&#x8BD5;&#xFF0C;&#x7231;&#x60DC;&#x81EA;&#x5DF1;&#x7684;&#x4EE3;&#x7801;&#xFF0C;&#x7231;&#x60DC;&#x989C;&#x503C;&#x9AD8;&#x7684;QA&#x59B9;&#x7EB8;&#xFF0C;&#x7231;&#x60DC;&#x6709;&#x4EF7;&#x503C;&#x7684;&#x4EA7;&#x54C1;&#xFF0C;&#x4EBA;&#x4EBA;&#x6709;&#x8D23;&#xFF01;</p>
+<h2 id="&#x73AF;&#x5883;&#x642D;&#x5EFA;">&#x73AF;&#x5883;&#x642D;&#x5EFA;</h2>
+<h3 id="gradle&#x914D;&#x7F6E;">Gradle&#x914D;&#x7F6E;</h3>
+<p>&#x5728;build.gradle&#x4E2D;&#x914D;&#x7F6E;&#x5982;&#x4E0B;&#x4F9D;&#x8D56;&#x5173;&#x7CFB;&#xFF1A;</p>
+<pre><code class="lang-java">testCompile <span class="hljs-string">&quot;org.robolectric:robolectric:3.0&quot;</span>
+</code></pre>
+<h3 id="&#x901A;&#x8FC7;&#x6CE8;&#x89E3;&#x914D;&#x7F6E;testrunner">&#x901A;&#x8FC7;&#x6CE8;&#x89E3;&#x914D;&#x7F6E;TestRunner</h3>
+<pre><code class="lang-java"><span class="hljs-annotation">@RunWith</span>(RobolectricGradleTestRunner.class)
+<span class="hljs-annotation">@Config</span>(constants = BuildConfig.class)
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">SampleActivityTest</span> </span>{
+
+}
+</code></pre>
+<h3 id="android-studio&#x7684;&#x914D;&#x7F6E;">Android Studio&#x7684;&#x914D;&#x7F6E;</h3>
+<ol>
+<li><p>&#x5728;Build Variants&#x9762;&#x677F;&#x4E2D;&#xFF0C;&#x5C06;Test Artifact&#x5207;&#x6362;&#x6210;Unit Tests&#x6A21;&#x5F0F;&#xFF0C;&#x5982;&#x4E0B;&#x56FE;&#xFF1A;</p>
+<p><img src="http://img4.07net01.com/upload/images/2016/02/17/2080330171030102.png" alt=""></p>
+<p>&#x914D;&#x7F6E;Test Artifact</p>
+</li>
+<li><p>working directory &#x8BBE;&#x7F6E;&#x4E3A;$MODULE_DIR$</p>
+<p>&#x5982;&#x679C;&#x5728;&#x6D4B;&#x8BD5;&#x8FC7;&#x7A0B;&#x9047;&#x89C1;&#x5982;&#x4E0B;&#x95EE;&#x9898;&#xFF0C;&#x89E3;&#x51B3;&#x7684;&#x65B9;&#x5F0F;&#x5C31;&#x662F;&#x8BBE;&#x7F6E;working directory&#x7684;&#x503C;&#xFF1A;</p>
+<pre><code class="lang-java">Java.io.FileNotFoundException: build\intermediates\bundles\debug\AndroidManifest.xml (&#x7CFB;&#x7EDF;&#x627E;&#x4E0D;&#x5230;&#x6307;&#x5B9A;&#x7684;&#x8DEF;&#x5F84;&#x3002;)
+</code></pre>
+<p>&#x8BBE;&#x7F6E;&#x65B9;&#x6CD5;&#x5982;&#x4E0B;&#x56FE;&#x6240;&#x793A;:</p>
+<p><img src="http://img4.07net01.com/upload/images/2016/02/17/2080330171030103.png" alt=""></p>
+<p>Edit Configurations</p>
+<p><img src="http://img4.07net01.com/upload/images/2016/02/17/2080330171030104.png" alt=""></p>
+<p>Working directory&#x7684;&#x914D;&#x7F6E;
+&#x66F4;&#x591A;&#x73AF;&#x5883;&#x914D;&#x7F6E;&#x53EF;&#x4EE5;&#x53C2;&#x8003;<a href="http://robolectric.org" target="_blank">&#x5B98;&#x65B9;&#x7F51;&#x7AD9;</a>&#x3002;</p>
+</li>
+</ol>
+<h2 id="activity&#x7684;&#x6D4B;&#x8BD5;">Activity&#x7684;&#x6D4B;&#x8BD5;</h2>
+<ol>
+<li><p>&#x521B;&#x5EFA;Activity&#x5B9E;&#x4F8B;</p>
+<pre><code class="lang-java"><span class="hljs-annotation">@Test</span>
+<span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">testActivity</span><span class="hljs-params">()</span> </span>{
+   SampleActivity sampleActivity = Robolectric.setupActivity(SampleActivity.class);
+   assertNotNull(sampleActivity);
+   assertEquals(sampleActivity.getTitle(), <span class="hljs-string">&quot;SimpleActivity&quot;</span>);
+}
+</code></pre>
+</li>
+<li><p>&#x751F;&#x547D;&#x5468;&#x671F;</p>
+<pre><code class="lang-java"><span class="hljs-annotation">@Test</span>
+<span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">testLifecycle</span><span class="hljs-params">()</span> </span>{
+   ActivityController&lt;SampleActivity&gt; activityController = Robolectric.buildActivity(SampleActivity.class).create().start();
+   Activity activity = activityController.get();
+   TextView textview = (TextView) activity.findViewById(R.id.tv_lifecycle_value);
+   assertEquals(<span class="hljs-string">&quot;onCreate&quot;</span>,textview.getText().toString());
+   activityController.resume();
+   assertEquals(<span class="hljs-string">&quot;onResume&quot;</span>, textview.getText().toString());
+   activityController.destroy();
+   assertEquals(<span class="hljs-string">&quot;onDestroy&quot;</span>, textview.getText().toString());
+}
+</code></pre>
+</li>
+<li><p>&#x8DF3;&#x8F6C;</p>
+<pre><code class="lang-java"><span class="hljs-annotation">@Test</span>
+<span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">testStartActivity</span><span class="hljs-params">()</span> </span>{
+   <span class="hljs-comment">//&#x6309;&#x94AE;&#x70B9;&#x51FB;&#x540E;&#x8DF3;&#x8F6C;&#x5230;&#x4E0B;&#x4E00;&#x4E2A;Activity</span>
+   forwardBtn.performClick();
+   Intent expectedIntent = <span class="hljs-keyword">new</span> Intent(sampleActivity, LoginActivity.class);
+   Intent actualIntent = ShadowApplication.getInstance().getNextStartedActivity();
+   assertEquals(expectedIntent, actualIntent);
+}
+</code></pre>
+</li>
+<li><p>UI&#x7EC4;&#x4EF6;&#x72B6;&#x6001;</p>
+<pre><code class="lang-java"><span class="hljs-annotation">@Test</span>
+<span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">testViewState</span><span class="hljs-params">()</span></span>{
+   CheckBox checkBox = (CheckBox) sampleActivity.findViewById(R.id.checkbox);
+   Button inverseBtn = (Button) sampleActivity.findViewById(R.id.btn_inverse);
+   assertTrue(inverseBtn.isEnabled());
+
+   checkBox.setChecked(<span class="hljs-keyword">true</span>);
+   <span class="hljs-comment">//&#x70B9;&#x51FB;&#x6309;&#x94AE;&#xFF0C;CheckBox&#x53CD;&#x9009;</span>
+   inverseBtn.performClick();
+   assertTrue(!checkBox.isChecked());
+   inverseBtn.performClick();
+   assertTrue(checkBox.isChecked());
+}
+</code></pre>
+</li>
+<li><p>Dialog</p>
+<pre><code class="lang-java"><span class="hljs-annotation">@Test</span>
+<span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">testDialog</span><span class="hljs-params">()</span></span>{
+   <span class="hljs-comment">//&#x70B9;&#x51FB;&#x6309;&#x94AE;&#xFF0C;&#x51FA;&#x73B0;&#x5BF9;&#x8BDD;&#x6846;</span>
+   dialogBtn.performClick();
+   AlertDialog latestAlertDialog = ShadowAlertDialog.getLatestAlertDialog();
+   assertNotNull(latestAlertDialog);
+}
+</code></pre>
+</li>
+<li><p>Toast</p>
+<pre><code class="lang-java"><span class="hljs-annotation">@Test</span>
+<span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">testToast</span><span class="hljs-params">()</span></span>{
+   <span class="hljs-comment">//&#x70B9;&#x51FB;&#x6309;&#x94AE;&#xFF0C;&#x51FA;&#x73B0;&#x5410;&#x53F8;</span>
+   toastBtn.performClick();
+   assertEquals(ShadowToast.getTextOfLatestToast(),<span class="hljs-string">&quot;we love UT&quot;</span>);
+}
+</code></pre>
+</li>
+<li><p>Fragment&#x7684;&#x6D4B;&#x8BD5;</p>
+<p>&#x5982;&#x679C;&#x4F7F;&#x7528;support&#x7684;Fragment&#xFF0C;&#x9700;&#x6DFB;&#x52A0;&#x4EE5;&#x4E0B;&#x4F9D;&#x8D56;</p>
+<pre><code class="lang-java">testCompile <span class="hljs-string">&quot;org.robolectric:shadows-support-v4:3.0&quot;</span>
+</code></pre>
+<p>shadow-support&#x5305;&#x63D0;&#x4F9B;&#x4E86;&#x5C06;Fragment&#x4E3B;&#x52A8;&#x6DFB;&#x52A0;&#x5230;Activity&#x4E2D;&#x7684;&#x65B9;&#x6CD5;&#xFF1A;SupportFragmentTestUtil.startFragment(),&#x7B80;&#x6613;&#x7684;&#x6D4B;&#x8BD5;&#x4EE3;&#x7801;&#x5982;&#x4E0B;</p>
+<pre><code class="lang-java"><span class="hljs-annotation">@Test</span>
+<span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">testFragment</span><span class="hljs-params">()</span></span>{
+   SampleFragment sampleFragment = <span class="hljs-keyword">new</span> SampleFragment();
+   <span class="hljs-comment">//&#x6B64;api&#x53EF;&#x4EE5;&#x4E3B;&#x52A8;&#x6DFB;&#x52A0;Fragment&#x5230;Activity&#x4E2D;&#xFF0C;&#x56E0;&#x6B64;&#x4F1A;&#x89E6;&#x53D1;Fragment&#x7684;onCreateView()</span>
+   SupportFragmentTestUtil.startFragment(sampleFragment);
+   assertNotNull(sampleFragment.getView());
+}
+</code></pre>
+</li>
+<li><p>&#x8BBF;&#x95EE;&#x8D44;&#x6E90;&#x6587;&#x4EF6;</p>
+<pre><code class="lang-java"><span class="hljs-annotation">@Test</span>
+<span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">testResources</span><span class="hljs-params">()</span> </span>{
+   Application application = RuntimeEnvironment.application;
+   String appName = application.getString(R.string.app_name);
+   String activityTitle = application.getString(R.string.title_activity_simple);
+   assertEquals(<span class="hljs-string">&quot;LoveUT&quot;</span>, appName);
+   assertEquals(<span class="hljs-string">&quot;SimpleActivity&quot;</span>,activityTitle);
+}
+</code></pre>
+</li>
+</ol>
+<h2 id="broadcastreceiver&#x7684;&#x6D4B;&#x8BD5;">BroadcastReceiver&#x7684;&#x6D4B;&#x8BD5;</h2>
+<p>&#x9996;&#x5148;&#x770B;&#x4E0B;&#x5E7F;&#x64AD;&#x63A5;&#x6536;&#x8005;&#x7684;&#x4EE3;&#x7801;</p>
+<pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyReceiver</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">BroadcastReceiver</span> </span>{
+    <span class="hljs-annotation">@Override</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">onReceive</span><span class="hljs-params">(Context context, Intent intent)</span> </span>{
+        SharedPreferences.Editor editor = context.getSharedPreferences(<span class="hljs-string">&quot;account&quot;</span>, Context.MODE_PRIVATE).edit();
+        String name = intent.getStringExtra(<span class="hljs-string">&quot;EXTRA_USERNAME&quot;</span>);
+        editor.putString(<span class="hljs-string">&quot;USERNAME&quot;</span>, name);
+        editor.apply();
+    }
+}
+</code></pre>
+<p>&#x5E7F;&#x64AD;&#x7684;&#x6D4B;&#x8BD5;&#x70B9;&#x53EF;&#x4EE5;&#x5305;&#x542B;&#x4E24;&#x4E2A;&#x65B9;&#x9762;&#xFF0C;&#x4E00;&#x662F;&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x662F;&#x5426;&#x6CE8;&#x518C;&#x4E86;&#x8BE5;&#x5E7F;&#x64AD;&#xFF0C;&#x4E8C;&#x662F;&#x5E7F;&#x64AD;&#x63A5;&#x53D7;&#x8005;&#x7684;&#x5904;&#x7406;&#x903B;&#x8F91;&#x662F;&#x5426;&#x6B63;&#x786E;&#xFF0C;&#x5173;&#x4E8E;&#x903B;&#x8F91;&#x662F;&#x5426;&#x6B63;&#x786E;&#xFF0C;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x4EBA;&#x4E3A;&#x7684;&#x89E6;&#x53D1;onReceive()&#x65B9;&#x6CD5;&#xFF0C;&#x9A8C;&#x8BC1;&#x6267;&#x884C;&#x540E;&#x6240;&#x5F71;&#x54CD;&#x5230;&#x7684;&#x6570;&#x636E;&#x3002;</p>
+<pre><code class="lang-java"><span class="hljs-annotation">@Test</span>
+<span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">testBoradcast</span><span class="hljs-params">()</span></span>{
+    ShadowApplication shadowApplication = ShadowApplication.getInstance();
+
+    String action = <span class="hljs-string">&quot;com.geniusmart.loveut.login&quot;</span>;
+    Intent intent = <span class="hljs-keyword">new</span> Intent(action);
+    intent.putExtra(<span class="hljs-string">&quot;EXTRA_USERNAME&quot;</span>, <span class="hljs-string">&quot;geniusmart&quot;</span>);
+
+    <span class="hljs-comment">//&#x6D4B;&#x8BD5;&#x662F;&#x5426;&#x6CE8;&#x518C;&#x5E7F;&#x64AD;&#x63A5;&#x6536;&#x8005;</span>
+    assertTrue(shadowApplication.hasReceiverForIntent(intent));
+
+    <span class="hljs-comment">//&#x4EE5;&#x4E0B;&#x6D4B;&#x8BD5;&#x5E7F;&#x64AD;&#x63A5;&#x53D7;&#x8005;&#x7684;&#x5904;&#x7406;&#x903B;&#x8F91;&#x662F;&#x5426;&#x6B63;&#x786E;</span>
+    MyReceiver myReceiver = <span class="hljs-keyword">new</span> MyReceiver();
+    myReceiver.onReceive(RuntimeEnvironment.application,intent);
+    SharedPreferences preferences = shadowApplication.getSharedPreferences(<span class="hljs-string">&quot;account&quot;</span>, Context.MODE_PRIVATE);
+    assertEquals( <span class="hljs-string">&quot;geniusmart&quot;</span>,preferences.getString(<span class="hljs-string">&quot;USERNAME&quot;</span>, <span class="hljs-string">&quot;&quot;</span>));
+}
+</code></pre>
+<h2 id="service&#x7684;&#x6D4B;&#x8BD5;">Service&#x7684;&#x6D4B;&#x8BD5;</h2>
+<p>Service&#x7684;&#x6D4B;&#x8BD5;&#x7C7B;&#x4F3C;&#x4E8E;BroadcastReceiver&#xFF0C;&#x4EE5;IntentService&#x4E3A;&#x4F8B;&#xFF0C;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x89E6;&#x53D1;onHandleIntent()&#x65B9;&#x6CD5;&#xFF0C;&#x7528;&#x6765;&#x9A8C;&#x8BC1;Service&#x542F;&#x52A8;&#x540E;&#x7684;&#x903B;&#x8F91;&#x662F;&#x5426;&#x6B63;&#x786E;&#x3002;</p>
+<pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">SampleIntentService</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">IntentService</span> </span>{
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">SampleIntentService</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">super</span>(<span class="hljs-string">&quot;SampleIntentService&quot;</span>);
+    }
+
+    <span class="hljs-annotation">@Override</span>
+    <span class="hljs-function"><span class="hljs-keyword">protected</span> <span class="hljs-keyword">void</span> <span class="hljs-title">onHandleIntent</span><span class="hljs-params">(Intent intent)</span> </span>{
+        SharedPreferences.Editor editor = getApplicationContext().getSharedPreferences(<span class="hljs-string">&quot;example&quot;</span>, Context.MODE_PRIVATE).edit();
+        editor.putString(<span class="hljs-string">&quot;SAMPLE_DATA&quot;</span>, <span class="hljs-string">&quot;sample data&quot;</span>);
+        editor.apply();
+    }
+}
+</code></pre>
+<p>&#x4EE5;&#x4E0A;&#x4EE3;&#x7801;&#x7684;&#x5355;&#x5143;&#x6D4B;&#x8BD5;&#x7528;&#x4F8B;&#xFF1A;</p>
+<pre><code class="lang-java"><span class="hljs-annotation">@Test</span>
+<span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">addsDataToSharedPreference</span><span class="hljs-params">()</span> </span>{
+    Application application = RuntimeEnvironment.application;
+    RoboSharedPreferences preferences = (RoboSharedPreferences) application.getSharedPreferences(<span class="hljs-string">&quot;example&quot;</span>, Context.MODE_PRIVATE);
+
+    SampleIntentService registrationService = <span class="hljs-keyword">new</span> SampleIntentService();
+    registrationService.onHandleIntent(<span class="hljs-keyword">new</span> Intent());
+
+    assertEquals(preferences.getString(<span class="hljs-string">&quot;SAMPLE_DATA&quot;</span>, <span class="hljs-string">&quot;&quot;</span>), <span class="hljs-string">&quot;sample data&quot;</span>);
+}
+</code></pre>
+<h2 id="shadow&#x7684;&#x4F7F;&#x7528;">Shadow&#x7684;&#x4F7F;&#x7528;</h2>
+<p>Shadow&#x662F;Robolectric&#x7684;&#x7ACB;&#x8DB3;&#x4E4B;&#x672C;&#xFF0C;&#x5982;&#x5176;&#x540D;&#xFF0C;&#x4F5C;&#x4E3A;&#x5F71;&#x5B50;&#xFF0C;&#x4E00;&#x5B9A;&#x662F;&#x53D8;&#x5E7B;&#x83AB;&#x6D4B;&#xFF0C;&#x65F6;&#x6709;&#x65F6;&#x65E0;&#xFF0C;&#x4E14;&#x4F9D;&#x5B58;&#x4E8E;&#x672C;&#x5C0A;&#x3002;&#x56E0;&#x6B64;&#xFF0C;&#x6846;&#x67B6;&#x9488;&#x5BF9;Android SDK&#x4E2D;&#x7684;&#x5BF9;&#x8C61;&#xFF0C;&#x63D0;&#x4F9B;&#x4E86;&#x5F88;&#x591A;&#x5F71;&#x5B50;&#x5BF9;&#x8C61;&#xFF08;&#x5982;Activity&#x548C;ShadowActivity&#x3001;TextView&#x548C;ShadowTextView&#x7B49;&#xFF09;&#xFF0C;&#x8FD9;&#x4E9B;&#x5F71;&#x5B50;&#x5BF9;&#x8C61;&#xFF0C;&#x4E30;&#x5BCC;&#x4E86;&#x672C;&#x5C0A;&#x7684;&#x884C;&#x4E3A;&#xFF0C;&#x80FD;&#x66F4;&#x65B9;&#x4FBF;&#x7684;&#x5BF9;Android&#x76F8;&#x5173;&#x7684;&#x5BF9;&#x8C61;&#x8FDB;&#x884C;&#x6D4B;&#x8BD5;&#x3002;</p>
+<ol>
+<li>&#x4F7F;&#x7528;&#x6846;&#x67B6;&#x63D0;&#x4F9B;&#x7684;Shadow&#x5BF9;&#x8C61;</li>
+</ol>
+<pre><code class="lang-java"><span class="hljs-annotation">@Test</span>
+<span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">testDefaultShadow</span><span class="hljs-params">()</span></span>{
+    MainActivity mainActivity = Robolectric.setupActivity(MainActivity.class);
+
+    <span class="hljs-comment">//&#x901A;&#x8FC7;Shadows.shadowOf()&#x53EF;&#x4EE5;&#x83B7;&#x53D6;&#x5F88;&#x591A;Android&#x5BF9;&#x8C61;&#x7684;Shadow&#x5BF9;&#x8C61;</span>
+    ShadowActivity shadowActivity = Shadows.shadowOf(mainActivity);
+    ShadowApplication shadowApplication = Shadows.shadowOf(RuntimeEnvironment.application);
+
+    Bitmap bitmap = BitmapFactory.decodeFile(<span class="hljs-string">&quot;Path&quot;</span>);
+    ShadowBitmap shadowBitmap = Shadows.shadowOf(bitmap);
+
+    <span class="hljs-comment">//Shadow&#x5BF9;&#x8C61;&#x63D0;&#x4F9B;&#x65B9;&#x4FBF;&#x6211;&#x4EEC;&#x7528;&#x4E8E;&#x6A21;&#x62DF;&#x4E1A;&#x52A1;&#x573A;&#x666F;&#x8FDB;&#x884C;&#x6D4B;&#x8BD5;&#x7684;api</span>
+    assertNull(shadowActivity.getNextStartedActivity());
+    assertNull(shadowApplication.getNextStartedActivity());
+    assertNotNull(shadowBitmap);
+}
+</code></pre>
+<ol>
+<li>&#x5982;&#x4F55;&#x81EA;&#x5B9A;&#x4E49;Shadow&#x5BF9;&#x8C61;</li>
+</ol>
+<pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Person</span> </span>{
+    <span class="hljs-keyword">private</span> String name;
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Person</span><span class="hljs-params">(String name)</span> </span>{
+        <span class="hljs-keyword">this</span>.name = name;
+    }
+    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">getName</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">return</span> name;
+    }
+}
+</code></pre>
+<p>&#x5176;&#x6B21;&#xFF0C;&#x521B;&#x5EFA;Person&#x7684;Shadow&#x5BF9;&#x8C61;</p>
+<pre><code class="lang-java"><span class="hljs-annotation">@Implements</span>(Person.class)
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">ShadowPerson</span> </span>{
+
+    <span class="hljs-annotation">@Implementation</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">getName</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">return</span> <span class="hljs-string">&quot;geniusmart&quot;</span>;
+    }
+}
+</code></pre>
+<p>&#x63A5;&#x4E0B;&#x6765;&#xFF0C;&#x9700;&#x81EA;&#x5B9A;&#x4E49;TestRunner&#xFF0C;&#x6DFB;&#x52A0;Person&#x5BF9;&#x8C61;&#x4E3A;&#x8981;&#x8FDB;&#x884C;Shadow&#x7684;&#x5BF9;&#x8C61;</p>
+<pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">CustomShadowTestRunner</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">RobolectricGradleTestRunner</span> </span>{
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">CustomShadowTestRunner</span><span class="hljs-params">(Class&lt;?&gt; klass)</span> <span class="hljs-keyword">throws</span> InitializationError </span>{
+        <span class="hljs-keyword">super</span>(klass);
+    }
+
+    <span class="hljs-annotation">@Override</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> InstrumentationConfiguration <span class="hljs-title">createClassLoaderConfig</span><span class="hljs-params">()</span> </span>{
+        InstrumentationConfiguration.Builder builder = InstrumentationConfiguration.newBuilder();
+        <span class="hljs-comment">/**
+         * &#x6DFB;&#x52A0;&#x8981;&#x8FDB;&#x884C;Shadow&#x7684;&#x5BF9;&#x8C61;
+         */</span>
+        builder.addInstrumentedClass(Person.class.getName());
+        <span class="hljs-keyword">return</span> builder.build();
+    }
+}
+</code></pre>
+<p>&#x6700;&#x540E;&#xFF0C;&#x5728;&#x6D4B;&#x8BD5;&#x7528;&#x4F8B;&#x4E2D;&#xFF0C;ShadowPerson&#x5BF9;&#x8C61;&#x5C06;&#x81EA;&#x52A8;&#x4EE3;&#x66FF;&#x539F;&#x59CB;&#x5BF9;&#x8C61;&#xFF0C;&#x8C03;&#x7528;Shadow&#x5BF9;&#x8C61;&#x7684;&#x6570;&#x636E;&#x548C;&#x884C;&#x4E3A;</p>
+<pre><code class="lang-java"><span class="hljs-annotation">@RunWith</span>(CustomShadowTestRunner.class)
+<span class="hljs-annotation">@Config</span>(constants = BuildConfig.class,shadows = {ShadowPerson.class})
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">ShadowTest</span> </span>{
+
+    <span class="hljs-comment">/**
+     * &#x6D4B;&#x8BD5;&#x81EA;&#x5B9A;&#x4E49;&#x7684;Shadow
+     */</span>
+    <span class="hljs-annotation">@Test</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">testCustomShadow</span><span class="hljs-params">()</span></span>{
+        Person person = <span class="hljs-keyword">new</span> Person(<span class="hljs-string">&quot;genius&quot;</span>);
+        <span class="hljs-comment">//getName()&#x5B9E;&#x9645;&#x4E0A;&#x8C03;&#x7528;&#x7684;&#x662F;ShadowPerson&#x7684;&#x65B9;&#x6CD5;</span>
+        assertEquals(<span class="hljs-string">&quot;geniusmart&quot;</span>, person.getName());
+
+        <span class="hljs-comment">//&#x83B7;&#x53D6;Person&#x5BF9;&#x8C61;&#x5BF9;&#x5E94;&#x7684;Shadow&#x5BF9;&#x8C61;</span>
+        ShadowPerson shadowPerson = (ShadowPerson) ShadowExtractor.extract(person);
+        assertEquals(<span class="hljs-string">&quot;geniusmart&quot;</span>, shadowPerson.getName());
+    }
+}
+</code></pre>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../../../android/test/mockito/mockito.html" class="navigation navigation-prev " aria-label="Previous page: Mockito"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../../../android/androidstudio/index.html" class="navigation navigation-next " aria-label="Next page: Android Stuido插件"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../../../gitbook/app.js"></script>
+
+    
+    <script src="../../../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="../../../gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../../../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../../../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+    
+    <script src="../../../gitbook/plugins/gitbook-plugin-livereload/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"highlight":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"livereload":{}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>

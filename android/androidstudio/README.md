@@ -2,6 +2,10 @@
 
 > 自动生成MVP模式所需接口以及实现类的插件。
 
+[TranslationPlugin](http://yiiguxing.github.io/TranslationPlugin/index.html)
+
+> IntelliJ IDEA/Android Studio 翻译插件，支持中英互译、单词朗读。
+
 [android-strings-search-plugin](https://github.com/konifar/android-strings-search-plugin)
 
 > 这个插件可以很容易地在字符串资源搜索文本。

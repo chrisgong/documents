@@ -30,144 +30,144 @@ public class SampleActivityTest {
 
 1. 在Build Variants面板中，将Test Artifact切换成Unit Tests模式，如下图：
 
-![](http://img4.07net01.com/upload/images/2016/02/17/2080330171030102.png)
+  ![](http://img4.07net01.com/upload/images/2016/02/17/2080330171030102.png)
 
-配置Test Artifact
+  配置Test Artifact
 
 2. working directory 设置为$MODULE_DIR$
 
-如果在测试过程遇见如下问题，解决的方式就是设置working directory的值：
+  如果在测试过程遇见如下问题，解决的方式就是设置working directory的值：
 
-```java
-Java.io.FileNotFoundException: build\intermediates\bundles\debug\AndroidManifest.xml (系统找不到指定的路径。)
-```
+  ```java
+  Java.io.FileNotFoundException: build\intermediates\bundles\debug\AndroidManifest.xml (系统找不到指定的路径。)
+  ```
 
-设置方法如下图所示:
+  设置方法如下图所示:
 
-![](http://img4.07net01.com/upload/images/2016/02/17/2080330171030103.png)
+  ![](http://img4.07net01.com/upload/images/2016/02/17/2080330171030103.png)
 
-Edit Configurations
+  Edit Configurations
 
-![](http://img4.07net01.com/upload/images/2016/02/17/2080330171030104.png)
+  ![](http://img4.07net01.com/upload/images/2016/02/17/2080330171030104.png)
 
-Working directory的配置
-更多环境配置可以参考[官方网站](http://robolectric.org)。
+  Working directory的配置
+  更多环境配置可以参考[官方网站](http://robolectric.org)。
 
 ## Activity的测试
 
 1. 创建Activity实例
 
-```java
-@Test
-public void testActivity() {
-    SampleActivity sampleActivity = Robolectric.setupActivity(SampleActivity.class);
-    assertNotNull(sampleActivity);
-    assertEquals(sampleActivity.getTitle(), "SimpleActivity");
-}
-```
+  ```java
+  @Test
+  public void testActivity() {
+      SampleActivity sampleActivity = Robolectric.setupActivity(SampleActivity.class);
+      assertNotNull(sampleActivity);
+      assertEquals(sampleActivity.getTitle(), "SimpleActivity");
+  }
+  ```
 
 2. 生命周期
 
-```java
-@Test
-public void testLifecycle() {
-    ActivityController<SampleActivity> activityController = Robolectric.buildActivity(SampleActivity.class).create().start();
-    Activity activity = activityController.get();
-    TextView textview = (TextView) activity.findViewById(R.id.tv_lifecycle_value);
-    assertEquals("onCreate",textview.getText().toString());
-    activityController.resume();
-    assertEquals("onResume", textview.getText().toString());
-    activityController.destroy();
-    assertEquals("onDestroy", textview.getText().toString());
-}
-```
+  ```java
+  @Test
+  public void testLifecycle() {
+      ActivityController<SampleActivity> activityController = Robolectric.buildActivity(SampleActivity.class).create().start();
+      Activity activity = activityController.get();
+      TextView textview = (TextView) activity.findViewById(R.id.tv_lifecycle_value);
+      assertEquals("onCreate",textview.getText().toString());
+      activityController.resume();
+      assertEquals("onResume", textview.getText().toString());
+      activityController.destroy();
+      assertEquals("onDestroy", textview.getText().toString());
+  }
+  ```
 
 3. 跳转
 
-```java
-@Test
-public void testStartActivity() {
-    //按钮点击后跳转到下一个Activity
-    forwardBtn.performClick();
-    Intent expectedIntent = new Intent(sampleActivity, LoginActivity.class);
-    Intent actualIntent = ShadowApplication.getInstance().getNextStartedActivity();
-    assertEquals(expectedIntent, actualIntent);
-}
-```
+  ```java
+  @Test
+  public void testStartActivity() {
+      //按钮点击后跳转到下一个Activity
+      forwardBtn.performClick();
+      Intent expectedIntent = new Intent(sampleActivity, LoginActivity.class);
+      Intent actualIntent = ShadowApplication.getInstance().getNextStartedActivity();
+      assertEquals(expectedIntent, actualIntent);
+  }
+  ```
 
 4. UI组件状态
 
-```java
-@Test
-public void testViewState(){
-    CheckBox checkBox = (CheckBox) sampleActivity.findViewById(R.id.checkbox);
-    Button inverseBtn = (Button) sampleActivity.findViewById(R.id.btn_inverse);
-    assertTrue(inverseBtn.isEnabled());
+  ```java
+  @Test
+  public void testViewState(){
+      CheckBox checkBox = (CheckBox) sampleActivity.findViewById(R.id.checkbox);
+      Button inverseBtn = (Button) sampleActivity.findViewById(R.id.btn_inverse);
+      assertTrue(inverseBtn.isEnabled());
 
-    checkBox.setChecked(true);
-    //点击按钮，CheckBox反选
-    inverseBtn.performClick();
-    assertTrue(!checkBox.isChecked());
-    inverseBtn.performClick();
-    assertTrue(checkBox.isChecked());
-}
-```
+      checkBox.setChecked(true);
+      //点击按钮，CheckBox反选
+      inverseBtn.performClick();
+      assertTrue(!checkBox.isChecked());
+      inverseBtn.performClick();
+      assertTrue(checkBox.isChecked());
+  }
+  ```
 
 5. Dialog
 
-```java
-@Test
-public void testDialog(){
-    //点击按钮，出现对话框
-    dialogBtn.performClick();
-    AlertDialog latestAlertDialog = ShadowAlertDialog.getLatestAlertDialog();
-    assertNotNull(latestAlertDialog);
-}
-```
+  ```java
+  @Test
+  public void testDialog(){
+      //点击按钮，出现对话框
+      dialogBtn.performClick();
+      AlertDialog latestAlertDialog = ShadowAlertDialog.getLatestAlertDialog();
+      assertNotNull(latestAlertDialog);
+  }
+  ```
 
 6. Toast
 
-```java
-@Test
-public void testToast(){
-    //点击按钮，出现吐司
-    toastBtn.performClick();
-    assertEquals(ShadowToast.getTextOfLatestToast(),"we love UT");
-}
-```
+  ```java
+  @Test
+  public void testToast(){
+      //点击按钮，出现吐司
+      toastBtn.performClick();
+      assertEquals(ShadowToast.getTextOfLatestToast(),"we love UT");
+  }
+  ```
 
 7. Fragment的测试
 
-如果使用support的Fragment，需添加以下依赖
+  如果使用support的Fragment，需添加以下依赖
 
-```java
-testCompile "org.robolectric:shadows-support-v4:3.0"
-```
+  ```java
+  testCompile "org.robolectric:shadows-support-v4:3.0"
+  ```
 
-shadow-support包提供了将Fragment主动添加到Activity中的方法：SupportFragmentTestUtil.startFragment(),简易的测试代码如下
+  shadow-support包提供了将Fragment主动添加到Activity中的方法：SupportFragmentTestUtil.startFragment(),简易的测试代码如下
 
-```java
-@Test
-public void testFragment(){
-    SampleFragment sampleFragment = new SampleFragment();
-    //此api可以主动添加Fragment到Activity中，因此会触发Fragment的onCreateView()
-    SupportFragmentTestUtil.startFragment(sampleFragment);
-    assertNotNull(sampleFragment.getView());
-}
-```
+  ```java
+  @Test
+  public void testFragment(){
+      SampleFragment sampleFragment = new SampleFragment();
+      //此api可以主动添加Fragment到Activity中，因此会触发Fragment的onCreateView()
+      SupportFragmentTestUtil.startFragment(sampleFragment);
+      assertNotNull(sampleFragment.getView());
+  }
+  ```
 
 8. 访问资源文件
 
-```java
-@Test
-public void testResources() {
-    Application application = RuntimeEnvironment.application;
-    String appName = application.getString(R.string.app_name);
-    String activityTitle = application.getString(R.string.title_activity_simple);
-    assertEquals("LoveUT", appName);
-    assertEquals("SimpleActivity",activityTitle);
-}
-```
+  ```java
+  @Test
+  public void testResources() {
+      Application application = RuntimeEnvironment.application;
+      String appName = application.getString(R.string.app_name);
+      String activityTitle = application.getString(R.string.title_activity_simple);
+      assertEquals("LoveUT", appName);
+      assertEquals("SimpleActivity",activityTitle);
+  }
+  ```
 
 ## BroadcastReceiver的测试
 
@@ -177,8 +177,7 @@ public void testResources() {
 public class MyReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
-        SharedPreferences.Editor editor = context.getSharedPreferences(
-                "account", Context.MODE_PRIVATE).edit();
+        SharedPreferences.Editor editor = context.getSharedPreferences("account", Context.MODE_PRIVATE).edit();
         String name = intent.getStringExtra("EXTRA_USERNAME");
         editor.putString("USERNAME", name);
         editor.apply();
@@ -220,8 +219,7 @@ public class SampleIntentService extends IntentService {
 
     @Override
     protected void onHandleIntent(Intent intent) {
-        SharedPreferences.Editor editor = getApplicationContext().getSharedPreferences(
-                "example", Context.MODE_PRIVATE).edit();
+        SharedPreferences.Editor editor = getApplicationContext().getSharedPreferences("example", Context.MODE_PRIVATE).edit();
         editor.putString("SAMPLE_DATA", "sample data");
         editor.apply();
     }
@@ -234,8 +232,7 @@ public class SampleIntentService extends IntentService {
 @Test
 public void addsDataToSharedPreference() {
     Application application = RuntimeEnvironment.application;
-    RoboSharedPreferences preferences = (RoboSharedPreferences) application
-            .getSharedPreferences("example", Context.MODE_PRIVATE);
+    RoboSharedPreferences preferences = (RoboSharedPreferences) application.getSharedPreferences("example", Context.MODE_PRIVATE);
 
     SampleIntentService registrationService = new SampleIntentService();
     registrationService.onHandleIntent(new Intent());
