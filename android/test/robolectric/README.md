@@ -1,4 +1,5 @@
 # Robolectric
+> [robo'lɛktrɪk]
 
 ## 关于Robolectric
 
