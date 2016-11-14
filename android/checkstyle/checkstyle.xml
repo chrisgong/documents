@@ -18,15 +18,15 @@
 <!DOCTYPE module PUBLIC "-//Puppy Crawl//DTD Check Configuration 1.3//EN" "http://www.puppycrawl.com/dtds/configuration_1_3.dtd">
 
 <module name="Checker">
+    <property name="severity" value="warning"/>
     <module name="FileLength">
-        <property name="max" value="500"/>
-        <property name="fileExtensions" value=""/>
+        <property name="severity" value="warning"/>
     </module>
 
     <module name="SuppressionFilter">
-        <property name="file" value="${checkstyleSuppressionsPath}"/>
+        <property name="file" value="${proj.module.dir}/suppressions.xml"/>
     </module>
-
+    
     <module name="TreeWalker">
 
         <!-- See http://checkstyle.sf.net/config_sizes.html !-->
