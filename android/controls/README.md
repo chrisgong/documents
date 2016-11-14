@@ -312,3 +312,7 @@
 * [PermissionsDispatcher](https://github.com/hotchemi/PermissionsDispatcher)
 
   > Provides simple annotation-based API to handle runtime permissions.
+
+* [freeline](https://github.com/alibaba/freeline)
+
+  > Freeline is a fast build and deployment tool for Android

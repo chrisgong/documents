@@ -19,6 +19,8 @@
       * [保存和恢复状态](/android/test/espresso/state.md)
     * [Mockito](/android/test/mockito/mockito.md)
     * [Robolectric](/android/test/robolectric/README.md)
+  * [CheckStyle](/android/checkstyle/README.md)
+  * [Android第三方库](/android/controls/README.md)
   * [Android Stuido插件](/android/androidstudio/README.md)
 * [架构](/architecture/README.md)
   * [MVP](/architecture/mvp/README.md)
