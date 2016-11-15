@@ -26,7 +26,7 @@
     <module name="SuppressionFilter">
         <property name="file" value="${proj.module.dir}/suppressions.xml"/>
     </module>
-    
+
     <module name="TreeWalker">
 
         <!-- See http://checkstyle.sf.net/config_sizes.html !-->
@@ -122,13 +122,6 @@
                                            PLUS, QUESTION, SL, SR, STAR"/>
         </module>
 
-        <!-- Checks the policy on the padding of parentheses. !-->
-        <!-- See http://checkstyle.sf.net/config_whitespace.html !-->
-        <module name="ParenPad">
-            <property name="option" value="nospace"/>
-            <property name="tokens"
-                      value="CTOR_CALL, LPAREN, METHOD_CALL, RPAREN, SUPER_CTOR_CALL"/>
-        </module>
 
         <!-- Checks the policy on the padding of parentheses for typecasts. !-->
         <!-- See http://checkstyle.sf.net/config_whitespace.html !-->
@@ -191,20 +184,6 @@
             <property name="applyToProtected" value="true"/>
             <property name="applyToPackage" value="true"/>
             <property name="applyToPrivate" value="true"/>
-        </module>
-
-        <!-- Checks for local final variable name naming conventions. !-->
-        <!-- See http://checkstyle.sf.net/config_naming.html !-->
-        <module name="LocalFinalVariableName">
-            <property name="format" value="^[a-z][a-zA-Z0-9]*$"/>
-            <property name="tokens" value="VARIABLE_DEF, PARAMETER_DEF"/>
-        </module>
-
-        <!-- Checks for local variable name naming conventions. !-->
-        <!-- See http://checkstyle.sf.net/config_naming.html !-->
-        <module name="LocalVariableName">
-            <property name="format" value="^[a-z][a-zA-Z0-9]*$"/>
-            <property name="tokens" value="VARIABLE_DEF, PARAMETER_DEF"/>
         </module>
 
         <!-- Checks for member variable name naming conventions. !-->
@@ -325,15 +304,6 @@
     </module>
     <module name="TreeWalker">
 
-        <!-- Ensure a class has a package declaration. !-->
-        <!-- See http://checkstyle.sf.net/config_coding.html !-->
-        <module name="PackageDeclaration">
-            <property name="ignoreDirectoryName" value="true"/>
-        </module>
-
-    </module>
-    <module name="TreeWalker">
-
         <!-- Checks visibility of class members. !-->
         <!-- See http://checkstyle.sf.net/config_design.html !-->
         <module name="VisibilityModifier">
@@ -393,7 +363,6 @@
         <!-- See http://checkstyle.sf.net/config_coding.html !-->
         <module name="DeclarationOrder">
             <property name="ignoreConstructors" value="false"/>
-            <property name="ignoreMethods" value="false"/>
             <property name="ignoreModifiers" value="false"/>
         </module>
 
@@ -427,10 +396,6 @@
                                            DIV_ASSIGN, MINUS_ASSIGN, MOD_ASSIGN, PLUS_ASSIGN, SL_ASSIGN,
                                            SR_ASSIGN, STAR_ASSIGN"/>
         </module>
-
-        <!-- Checks that switch statement has "default" clause. !-->
-        <!-- See http://checkstyle.sf.net/config_coding.html !-->
-        <module name="MissingSwitchDefault"/>
 
         <!-- Check for ensuring that for loop control variables are not modified inside the for block. !-->
         <!-- See http://checkstyle.sourceforge.net/config_coding.html#ModifiedControlVariable !-->
