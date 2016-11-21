@@ -6,6 +6,14 @@
 
 > IntelliJ IDEA/Android Studio 翻译插件，支持中英互译、单词朗读。
 
+[android-postfix-plugin](https://github.com/takahirom/android-postfix-plugin)
+
+> Android postfix plugin for AndroidStudio
+
+[material-theme](https://github.com/equinusocio/material-theme)
+
+> Material Theme, the most epic theme for Sublime Text 3 by Mattia Astorino http://equinusocio.github.io/material-theme
+
 [android-strings-search-plugin](https://github.com/konifar/android-strings-search-plugin)
 
 > 这个插件可以很容易地在字符串资源搜索文本。
@@ -61,3 +69,7 @@
 [adb-idea](https://github.com/pbreault/adb-idea)
 
 > 支持直接在AS面板中进行ADB操作，操作快捷菜单，快速清除数据，重启应用，卸载应用等操作。
+
+[MultiChannelPackageTool](https://github.com/seven456/MultiChannelPackageTool)
+
+> Android Multi channel package tool （安卓多渠道打包工具）
