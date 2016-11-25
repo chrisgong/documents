@@ -4,19 +4,20 @@
 
   > Material Animations practice which is inspired from https://material.uplabs.com/posts/material-transition-animation
 
-  ![](https://raw.githubusercontent.com/Cutta/MaterialTransitionAnimation/master/code.gif)
+  <img src="https://raw.githubusercontent.com/Cutta/MaterialTransitionAnimation/master/code.gif" width = "200" height = "300"/>
+
 
 * [DrawView](https://github.com/ByoxCode/DrawView)
 
   > Android view that allows the user to create drawings. Customize settings like color, width or tools. Undo or redo actions.
 
-  ![](https://github.com/ByoxCode/DrawView/blob/master/2016.11.10_18.03.14.gif)
+  <img src="http://7xs2xr.com1.z0.glb.clouddn.com/2016.11.10_18.03.14.gif" width = "200" height = "300"/>
 
 * [SunBaby](https://github.com/Hitomis/SunBaby)
 
   > 萌萌哒太阳宝宝主题的LoadingView
 
-  ![](https://github.com/Hitomis/SunBaby/blob/master/preview/sunbaby.gif)
+  ![](http://7xs2xr.com1.z0.glb.clouddn.com/sunbaby.gif)
 
 * [BigImageViewer](https://github.com/Piasy/BigImageViewer)
 
@@ -26,7 +27,7 @@
 
   > 仿照淘宝和聚美优品，在商品详情页，向上拖动时，可以加载下一页。
 
-  ![](http://7xs2xr.com1.z0.glb.clouddn.com/capture.gif)
+  <img src="http://7xs2xr.com1.z0.glb.clouddn.com/capture.gif" width = "200" height = "300"/>
 
 * [SimpleText](https://github.com/jaychang0917/SimpleText)
 
@@ -44,13 +45,13 @@
 
   > As the name describes, this is an Android library that you can use to show new messages badge and new features badge.
 
-  ![](http://7xs2xr.com1.z0.glb.clouddn.com/screen_cap.png)
+  <img src="http://7xs2xr.com1.z0.glb.clouddn.com/screen_cap.png" width = "200" height = "300"/>
 
 * [bottomnavigation](https://github.com/saeedsh92/bottomnavigation)
 
   > Bottom navigation library for android based on material design guideline.
 
-  ![](https://raw.githubusercontent.com/saeedsh92/bottomnavigation/master/demo_banner.png)
+  <img src="https://raw.githubusercontent.com/saeedsh92/bottomnavigation/master/demo_banner.png" width = "500" height = "400"/>
 
 * [Crescento](https://github.com/developer-shivam/Crescento)
 
@@ -75,7 +76,7 @@
 
   > An page indicator for Android ViewPager
 
-  ![](http://ww1.sinaimg.cn/large/006y8mN6gw1f9pba1g0j1g30fk0fkdlj.gif)
+  <img src="http://ww1.sinaimg.cn/large/006y8mN6gw1f9pba1g0j1g30fk0fkdlj.gif" width = "300" height = "300"/>
 
 * [DiagonalLayout](https://github.com/florent37/DiagonalLayout)
 
@@ -87,7 +88,7 @@
 
   > A small android library to transition between a circular ImageView from one Activity to a rectangular ImageView in the launched Activity.
 
-  ![](http://ww3.sinaimg.cn/large/006y8mN6gw1f9pb7vnqgxg30go0tnkjr.gif)
+  <img src="http://ww3.sinaimg.cn/large/006y8mN6gw1f9pb7vnqgxg30go0tnkjr.gif" width = "200" height = "300"/>
 
 * [FiftyShadesOf](https://github.com/florent37/FiftyShadesOf)
 
@@ -99,13 +100,13 @@
 
   > A share button with smooth animation
 
-  ![](http://ww4.sinaimg.cn/large/006y8mN6gw1f9pb63ib7ig30gg0po0w7.gif)
+  <img src="http://ww4.sinaimg.cn/large/006y8mN6gw1f9pb63ib7ig30gg0po0w7.gif" width = "200" height = "300"/>
 
 * [BreadcrumbsView](https://github.com/VictorAlbertos/BreadcrumbsView)
 
   > A customizable Android view for paginated forms
 
-  ![](http://ww1.sinaimg.cn/large/006y8mN6gw1f9pb485dstg30a00fvta1.gif)
+  <img src="http://ww1.sinaimg.cn/large/006y8mN6gw1f9pb485dstg30a00fvta1.gif" width = "200" height = "300"/>
 
 * [AnimatorDurationTile](https://github.com/nickbutcher/AnimatorDurationTile)
 
@@ -141,7 +142,7 @@
 
   > Inspired by Heinrich Reimer Material Intro and developed with love from scratch
 
-  ![](http://ww2.sinaimg.cn/large/006y8mN6gw1f9paxmayvgg30gi0r2x6p.gif)
+  <img src="http://ww2.sinaimg.cn/large/006y8mN6gw1f9paxmayvgg30gi0r2x6p.gif" width = "200" height = "300"/>
 
 * [SquareMenu](https://github.com/devsideal/SquareMenu)
 
@@ -153,7 +154,7 @@
 
   > FloatingView can make the target view floating above the anchor view with cool animation
 
-  ![](http://ww1.sinaimg.cn/large/006y8mN6gw1f9paucmmndg30c00lcqh3.gif)
+  <img src="http://ww1.sinaimg.cn/large/006y8mN6gw1f9paucmmndg30c00lcqh3.gif" width = "200" height = "300"/>
 
 * [ActivitySwitcher](https://github.com/Hitomis/ActivitySwitcher)
 
@@ -170,7 +171,7 @@
 
   > Another sliding menu base on DrawerLayout
 
-  ![](http://ww3.sinaimg.cn/large/006y8mN6gw1f9paj6xryzg30dc0npe82.gif)
+  <img src="http://ww3.sinaimg.cn/large/006y8mN6gw1f9paj6xryzg30dc0npe82.gif" width = "200" height = "300"/>
 
 * [RecyclerViewSnap](https://github.com/rubensousa/RecyclerViewSnap)
 
@@ -200,13 +201,13 @@
 
   > A powerful, customizable and extensible ViewPager indicator framework. As the best alternative of ViewPagerIndicator, TabLayout and PagerSlidingTabStrip
 
-  ![](http://ww3.sinaimg.cn/large/006y8mN6gw1f9obqr7nn4g30ga0qvb2c.gif)
+  <img src="http://ww3.sinaimg.cn/large/006y8mN6gw1f9obqr7nn4g30ga0qvb2c.gif" width = "200" height = "300"/>
 
 * [RecyclerViewUndoSwipe](https://github.com/HoneyNeutrons/RecyclerViewUndoSwipe)
 
   > https://github.com/HoneyNeutrons/RecyclerViewUndoSwipe
 
-  ![](http://ww1.sinaimg.cn/large/006y8mN6gw1f9obfct1yvg30m80gob1n.gif)
+  <img src="http://ww1.sinaimg.cn/large/006y8mN6gw1f9obfct1yvg30m80gob1n.gif" width = "400" height = "300"/>
 
 * [hintcase](https://github.com/Nescafemix/hintcase)
 
@@ -218,25 +219,25 @@
 
   > A 2d metaball loading
 
-  ![](http://ww2.sinaimg.cn/large/006tNc79gw1f9obcgsap9g30dc0npkd1.gif)
+  <img src="http://ww2.sinaimg.cn/large/006tNc79gw1f9obcgsap9g30dc0npkd1.gif" width = "320" height = "480"/>
 
 * [stepper-indicator](https://github.com/badoualy/stepper-indicator)
 
   > Step indicator for onboarding or simple viewpager
 
-  ![](http://ww2.sinaimg.cn/large/006tNc79gw1f9ob9ujik1g30qo0sfx2a.gif)
+  <img src="http://ww2.sinaimg.cn/large/006tNc79gw1f9ob9ujik1g30qo0sfx2a.gif" width = "320" height = "350"/>
 
 * [BubbleLayout](https://github.com/MasayukiSuda/BubbleLayout)
 
   > Bubble View for Android.
 
-  ![](http://ww2.sinaimg.cn/large/006tNc79gw1f9ob8wfqthg30ei0l7myb.gif)
+  <img src="http://ww2.sinaimg.cn/large/006tNc79gw1f9ob8wfqthg30ei0l7myb.gif" width = "320" height = "350"/>
 
 * [MarqueeView](https://github.com/sfsheng0322/MarqueeView)
 
   > 垂直翻页公告
 
-  ![](http://ww2.sinaimg.cn/large/006y8mN6gw1f9pbiocvwag30dc0dctf0.gif)
+  <img src="http://ww2.sinaimg.cn/large/006y8mN6gw1f9pbiocvwag30dc0dctf0.gif" width = "320" height = "350"/>
 
 * [WaveInApp](https://github.com/Cleveroad/WaveInApp)
 
@@ -254,13 +255,13 @@
 
   > PaperOnboarding is a material design slider https://business.ramotion.com/gthb-casestudies
 
-  ![](http://ww1.sinaimg.cn/large/006tNc79gw1f9ob1tzvkeg30oq0iknpf.gif)
+  <img src="http://ww1.sinaimg.cn/large/006tNc79gw1f9ob1tzvkeg30oq0iknpf.gif" width = "400" height = "350"/>
 
 * [folding-cell-android](https://github.com/Ramotion/folding-cell-android)
 
   > FoldingCell is an expanding content cell inspired by folding paper material https://business.ramotion.com/gthb-casestudies
 
-  ![](http://ww4.sinaimg.cn/large/006tNc79gw1f9ob3h3w0wg30oq0ik4qp.gif)
+  <img src="http://ww4.sinaimg.cn/large/006tNc79gw1f9ob3h3w0wg30oq0ik4qp.gif" width = "400" height = "350"/>
 
 * [TimelineView](https://github.com/alorma/TimelineView)
 
@@ -278,7 +279,7 @@
 
   > Show triangle view.
 
-  ![](http://ww4.sinaimg.cn/large/006tNc79gw1f9oavof1xcj30u01hcqb8.jpg)
+  <img src="http://ww4.sinaimg.cn/large/006tNc79gw1f9oavof1xcj30u01hcqb8.jpg" width = "300" height = "480"/>
 
 * [MaterialStyledDialogs](https://github.com/javiersantos/MaterialStyledDialogs)
 
@@ -290,13 +291,13 @@
 
   > A nicer-looking, more intuitive and highly customizable alternative for radio buttons and dropdowns for Android.
 
-  ![](http://ww4.sinaimg.cn/large/006tNc79gw1f9oatsnxiig30a00hs4qp.gif)
+  <img src="http://ww4.sinaimg.cn/large/006tNc79gw1f9oatsnxiig30a00hs4qp.gif" width = "300" height = "480"/>
 
 * [AndroidTagView](https://github.com/whilu/AndroidTagView)
 
   > A TagView library for Android. Customize your own & Drag effect.
 
-  ![](http://ww1.sinaimg.cn/large/006tNc79gw1f9oash71kgg30fz0qae6q.gif)
+  <img src="http://ww1.sinaimg.cn/large/006tNc79gw1f9oash71kgg30fz0qae6q.gif" width = "300" height = "480"/>
 
 * [HoverTouchView](https://github.com/nantaphop/HoverTouchView)
 
@@ -308,7 +309,7 @@
 
   > Twitter's heart animation for Android
 
-  ![](http://ww2.sinaimg.cn/large/006tNc79gw1f9oaq2ubkvg30e80pab29.gif)
+  <img src="http://ww2.sinaimg.cn/large/006tNc79gw1f9oaq2ubkvg30e80pab29.gif" width = "300" height = "480"/>
 
 * [RecyclerView-FastScroll](https://github.com/timusus/RecyclerView-FastScroll)
 
@@ -326,7 +327,7 @@
 
   > Animation effects to TextView
 
-  ![](http://ww3.sinaimg.cn/large/006tNc79gw1f9oakb44wmg30k00zke83.gif)
+  <img src="http://ww3.sinaimg.cn/large/006tNc79gw1f9oakb44wmg30k00zke83.gif" width = "300" height = "480"/>
 
 ---
 
