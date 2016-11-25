@@ -1,5 +1,63 @@
 # Android开源库
 
+* [MaterialTransitionAnimation](https://github.com/Cutta/MaterialTransitionAnimation)
+
+  > Material Animations practice which is inspired from https://material.uplabs.com/posts/material-transition-animation
+
+  ![](https://raw.githubusercontent.com/Cutta/MaterialTransitionAnimation/master/code.gif)
+
+* [DrawView](https://github.com/ByoxCode/DrawView)
+
+  > Android view that allows the user to create drawings. Customize settings like color, width or tools. Undo or redo actions.
+
+  ![](https://github.com/ByoxCode/DrawView/blob/master/2016.11.10_18.03.14.gif)
+
+* [SunBaby](https://github.com/Hitomis/SunBaby)
+
+  > 萌萌哒太阳宝宝主题的LoadingView
+
+  ![](https://github.com/Hitomis/SunBaby/blob/master/preview/sunbaby.gif)
+
+* [BigImageViewer](https://github.com/Piasy/BigImageViewer)
+
+  > Big image viewer supporting pan and zoom, with very little memory usage and full featured image loading choices. Powered by Subsampling Scale Image View, Fresco, Glide, and Picasso.
+
+* [android-vertical-slide-view](https://github.com/xmuSistone/android-vertical-slide-view)
+
+  > 仿照淘宝和聚美优品，在商品详情页，向上拖动时，可以加载下一页。
+
+  ![](http://7xs2xr.com1.z0.glb.clouddn.com/capture.gif)
+
+* [SimpleText](https://github.com/jaychang0917/SimpleText)
+
+  > A simple spannable string helper
+
+  ![](https://github.com/jaychang0917/SimpleText/raw/master/SimpleText_v1_2_0.gif)
+
+* [SmartFonts](https://github.com/smart-fun/SmartFonts)
+
+  > Smart Fonts for Android is a Library which makes it easy to use Custom Fonts in Apps
+
+  ![](https://raw.githubusercontent.com/smart-fun/SmartFonts/master/app/extras/editor_screenshot.png)
+
+* [MaterialBadgeTextView](https://github.com/matrixxun/MaterialBadgeTextView)
+
+  > As the name describes, this is an Android library that you can use to show new messages badge and new features badge.
+
+  ![](http://7xs2xr.com1.z0.glb.clouddn.com/screen_cap.png)
+
+* [bottomnavigation](https://github.com/saeedsh92/bottomnavigation)
+
+  > Bottom navigation library for android based on material design guideline.
+
+  ![](https://raw.githubusercontent.com/saeedsh92/bottomnavigation/master/demo_banner.png)
+
+* [Crescento](https://github.com/developer-shivam/Crescento)
+
+  > Add curve at bottom of image views and relative layouts.
+
+  ![](http://7xs2xr.com1.z0.glb.clouddn.com/sample2.gif)
+
 * [Vertical-Intro](https://github.com/armcha/Vertical-Intro)
 
   > Vertical intro allows you to integrate material vertical intro to your app
@@ -316,3 +374,13 @@
 * [freeline](https://github.com/alibaba/freeline)
 
   > Freeline is a fast build and deployment tool for Android
+
+* [Android-Debug-Database](https://github.com/amitshekhariitbhu/Android-Debug-Database)
+
+ > A library for debugging android databases and shared preferences - Make Debugging Great Again
+
+ ![](https://raw.githubusercontent.com/amitshekhariitbhu/Android-Debug-Database/master/assets/debugdb.png)
+
+* [xLog](https://github.com/elvishew/xLog)
+
+ > Android logger, simple and pretty, powerful and flexible, all you need is here
