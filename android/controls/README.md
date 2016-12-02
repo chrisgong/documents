@@ -1,5 +1,36 @@
 # Android开源库
 
+* [TContributionsView](https://github.com/barryhappy/TContributionsView)
+
+  > TContributionsView can be use for a Contributions View, like in one personal homepage of Github, and more than that.
+
+  ![](https://github.com/barryhappy/TContributionsView/blob/master/images/overview.png)
+
+* [android-PageFlip](https://github.com/eschao/android-PageFlip)
+
+  > 3D Style Page Flip on Android
+
+  ![](https://cloud.githubusercontent.com/assets/20178358/20646731/20f6ebc6-b4bc-11e6-9857-efd8367db80c.png)
+
+
+* [PinchZoomTextView](https://github.com/androidessence/PinchZoomTextView)
+
+  > A TextView library that allows the user to increase/decrease font size with a two finger gesture by the user.
+
+  ![](https://github.com/androidessence/PinchZoomTextView/raw/master/sample.gif)
+
+* [FabOptions](https://github.com/JoaquimLey/FabOptions)
+
+  > A multi-functional FAB component with customizable options http://joaquimley.com/FabOptions
+
+  ![](https://github.com/JoaquimLey/faboptions/blob/master/art/faboptions_demo.gif)
+
+* [blurkit-android](https://github.com/wonderkiln/blurkit-android)
+
+  > The missing Android blurring library. Fast blur-behind layout that parallels iOS.
+
+  ![](https://github.com/wonderkiln/blurkit-android/blob/master/.repo/demo.gif)
+
 * [MaterialTransitionAnimation](https://github.com/Cutta/MaterialTransitionAnimation)
 
   > Material Animations practice which is inspired from https://material.uplabs.com/posts/material-transition-animation
@@ -70,8 +101,6 @@
 
   > A custom layout manager for RecyclerView which mimicric TextView span behaviour, flow layouts behaviour with support of amazing recyclerView features
 
-  ![](http://ww2.sinaimg.cn/large/006y8mN6gw1f9pbaxwj4dg308w0ftqva.gif)
-
 * [PageIndicatorView](https://github.com/romandanylyk/PageIndicatorView)
 
   > An page indicator for Android ViewPager
@@ -87,8 +116,6 @@
 * [ImageTransition](https://github.com/vikramkakkar/ImageTransition)
 
   > A small android library to transition between a circular ImageView from one Activity to a rectangular ImageView in the launched Activity.
-
-  <img src="http://ww3.sinaimg.cn/large/006y8mN6gw1f9pb7vnqgxg30go0tnkjr.gif" width = "200" height = "300"/>
 
 * [FiftyShadesOf](https://github.com/florent37/FiftyShadesOf)
 
@@ -354,6 +381,11 @@
 * [ottomSheetPickers](https://github.com/philliphsu/BottomSheetPickers)
 
   > Third-party date and time pickers for Android.
+
+* [ENViews](https://github.com/codeestX/ENViews)
+
+  > A cool dynamic view library
+
 ---
 
 * [packer-ng-plugin](https://github.com/mcxiaoke/packer-ng-plugin)
@@ -378,10 +410,18 @@
 
 * [Android-Debug-Database](https://github.com/amitshekhariitbhu/Android-Debug-Database)
 
- > A library for debugging android databases and shared preferences - Make Debugging Great Again
+  > A library for debugging android databases and shared preferences - Make Debugging Great Again
 
  ![](https://raw.githubusercontent.com/amitshekhariitbhu/Android-Debug-Database/master/assets/debugdb.png)
 
 * [xLog](https://github.com/elvishew/xLog)
 
- > Android logger, simple and pretty, powerful and flexible, all you need is here
+  > Android logger, simple and pretty, powerful and flexible, all you need is here
+
+* [dryrun](https://github.com/cesarferreira/dryrun)
+
+  > ☕️ Try the demo project of any Android Library
+
+* [AndroidUtilCode](https://github.com/Blankj/AndroidUtilCode)
+
+  > Android developers should collect the following utils(updating) http://blankj.com/862.html
