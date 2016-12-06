@@ -30,5 +30,8 @@
   * [接口隔离原则](/designpattern/ISP.md)
   * [里氏替换原则](/designpattern/LSP.md)
   * [依赖倒置原则](/designpattern/DIP.md)
+  * [开闭原则](/designpattern/OCP.md)
+  * [23中设计模式](/designpattern/specific/README.md)
+    * [单例模式](/designpattern/specific/SP.md)
 * [Git](/git/README.md)
 * [Gradle](/gradle)
