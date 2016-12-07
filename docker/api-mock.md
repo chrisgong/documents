@@ -16,7 +16,7 @@ docker run --name api-mock -e "repository={repository}" -p 80:80 -p 8080:8080 -p
 mac指令:
 
 ```shell
-docker run --name api-mock -v ~/.ssh:/root/.ssh -e "git@github.com:chrisgong/api-mock.git" -p 80:80 -p 8080:8080 -p 3000:3000 -d ghosts/api-mock
+docker run --name api-mock -e "aglio=--theme-template triple" -v ~/.ssh:/root/.ssh -e "repository=git@github.com:chrisgong/api-mock.git" -e "password=Gc880316" -p 80:80 -p 8080:8080 -p 3000:3000 -d ghosts/api-mock
 ```
 
 ### 指定API Blueprint文档Git私有仓库

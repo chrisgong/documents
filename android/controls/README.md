@@ -1,5 +1,23 @@
 # Android开源库
 
+* [RapidInterpolator](https://github.com/MartinRGB/RapidInterpolator)
+
+  > Realtime interpolator editor(Inspired by Facebook Rebound)
+
+  ![](https://github.com/MartinRGB/RapidInterpolator/blob/master/example.gif?raw=true)
+
+* [ScrollParallaxImageView](https://github.com/gjiazhe/ScrollParallaxImageView)
+
+  > Provides parallax effects when ImageView scrolls in the screen.
+
+  ![](https://github.com/gjiazhe/ScrollParallaxImageView/blob/master/screenshot/ss2.gif)
+
+* [ScrollablePanel](https://github.com/Kelin-Hong/ScrollablePanel)
+
+  > A flexible view for providing a limited rect window into a large data set,just like a two-dimensional RecyclerView. It different from RecyclerView is that it's two-dimensional(just like a Panel) and it pin the itemView of first row and first column in their original location.
+
+  ![](https://github.com/Kelin-Hong/ScrollablePanel/blob/master/art/ScrollablePanelDemo.gif)
+
 * [TContributionsView](https://github.com/barryhappy/TContributionsView)
 
   > TContributionsView can be use for a Contributions View, like in one personal homepage of Github, and more than that.
@@ -355,6 +373,8 @@
   > Animation effects to TextView
 
   <img src="http://ww3.sinaimg.cn/large/006tNc79gw1f9oakb44wmg30k00zke83.gif" width = "300" height = "480"/>
+
+* [Circle](https://github.com/lovejjfg/Circle)
 
 ---
 
