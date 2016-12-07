@@ -4,7 +4,7 @@
 
   > Realtime interpolator editor(Inspired by Facebook Rebound)
 
-  ![](https://github.com/MartinRGB/RapidInterpolator/blob/master/example.gif?raw=true)
+  ![](https://github.com/MartinRGB/RapidInterpolator/blob/master/example.gif)
 
 * [ScrollParallaxImageView](https://github.com/gjiazhe/ScrollParallaxImageView)
 
