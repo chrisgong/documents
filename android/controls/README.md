@@ -4,7 +4,7 @@
 
   > A rich text editor that supports drag sorting
 
-  <img src="https://github.com/Hitomis/SortRichEditor/blob/master/preview/SortRichEditor.gif" width = "280" height = "520"/>
+  <img src="http://7xs2xr.com1.z0.glb.clouddn.com/SortRichEditor.gif" width = "280" height = "520"/>
 
 * [CircleImageView](https://github.com/hdodenhof/CircleImageView)
 
