@@ -1,5 +1,11 @@
 # Android开源库
 
+* [SortRichEditor](https://github.com/Hitomis/SortRichEditor)
+
+  > A rich text editor that supports drag sorting
+
+  <img src="https://github.com/Hitomis/SortRichEditor/blob/master/preview/SortRichEditor.gif" width = "280" height = "520"/>
+
 * [CircleImageView](https://github.com/hdodenhof/CircleImageView)
 
   > A circular ImageView for Android
