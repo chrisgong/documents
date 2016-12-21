@@ -10,43 +10,61 @@
 
   > A circular ImageView for Android
 
-  <img src="https://camo.githubusercontent.com/e17a2a83e3e205a822d27172cb3736d4f441344d/68747470733a2f2f7261772e6769746875622e636f6d2f68646f64656e686f662f436972636c65496d616765566965772f6d61737465722f73637265656e73686f742e706e67" width = "280" height = "520"/>
+* [RapidInterpolator](https://github.com/MartinRGB/RapidInterpolator)
+
+  > Realtime interpolator editor(Inspired by Facebook Rebound)
+
+  ![](https://github.com/MartinRGB/RapidInterpolator/blob/master/example.gif)
+
+* [ScrollParallaxImageView](https://github.com/gjiazhe/ScrollParallaxImageView)
+
+  > Provides parallax effects when ImageView scrolls in the screen.
+
+  ![](https://github.com/gjiazhe/ScrollParallaxImageView/blob/master/screenshot/ss2.gif)
+
+* [ScrollablePanel](https://github.com/Kelin-Hong/ScrollablePanel)
+
+  > A flexible view for providing a limited rect window into a large data set,just like a two-dimensional RecyclerView. It different from RecyclerView is that it's two-dimensional(just like a Panel) and it pin the itemView of first row and first column in their original location.
+
+  ![](https://github.com/Kelin-Hong/ScrollablePanel/blob/master/art/ScrollablePanelDemo.gif)
 
 * [TContributionsView](https://github.com/barryhappy/TContributionsView)
 
   > TContributionsView can be use for a Contributions View, like in one personal homepage of Github, and more than that.
 
-  <img src="https://raw.githubusercontent.com/barryhappy/TContributionsView/master/images/overview.png" width = "320" height = "520"/>
+  ![](https://github.com/barryhappy/TContributionsView/blob/master/images/overview.png)
 
 * [android-PageFlip](https://github.com/eschao/android-PageFlip)
 
   > 3D Style Page Flip on Android
 
-  <img src="https://cloud.githubusercontent.com/assets/20178358/20646731/20f6ebc6-b4bc-11e6-9857-efd8367db80c.png" width = "400" height = "250"/>
+  ![](https://cloud.githubusercontent.com/assets/20178358/20646731/20f6ebc6-b4bc-11e6-9857-efd8367db80c.png)
+
 
 * [PinchZoomTextView](https://github.com/androidessence/PinchZoomTextView)
 
   > A TextView library that allows the user to increase/decrease font size with a two finger gesture by the user.
 
-  <img src="https://github.com/androidessence/PinchZoomTextView/raw/master/sample.gif" width = "320" height = "480"/>
+  ![](https://github.com/androidessence/PinchZoomTextView/raw/master/sample.gif)
 
 * [FabOptions](https://github.com/JoaquimLey/FabOptions)
 
   > A multi-functional FAB component with customizable options http://joaquimley.com/FabOptions
 
-  ![](https://raw.githubusercontent.com/JoaquimLey/faboptions/master/art/faboptions_demo.gif)
+  ![](https://github.com/JoaquimLey/faboptions/blob/master/art/faboptions_demo.gif)
 
 * [blurkit-android](https://github.com/wonderkiln/blurkit-android)
 
   > The missing Android blurring library. Fast blur-behind layout that parallels iOS.
 
-  ![](http://odr63yrh6.bkt.clouddn.com/demo.jpg)
+  ![](https://github.com/wonderkiln/blurkit-android/blob/master/.repo/demo.gif)
 
 * [MaterialTransitionAnimation](https://github.com/Cutta/MaterialTransitionAnimation)
 
   > Material Animations practice which is inspired from https://material.uplabs.com/posts/material-transition-animation
 
   <img src="https://raw.githubusercontent.com/Cutta/MaterialTransitionAnimation/master/code.gif" width = "200" height = "300"/>
+
 
 * [DrawView](https://github.com/ByoxCode/DrawView)
 
@@ -365,6 +383,8 @@
   > Animation effects to TextView
 
   <img src="http://ww3.sinaimg.cn/large/006tNc79gw1f9oakb44wmg30k00zke83.gif" width = "300" height = "480"/>
+
+* [Circle](https://github.com/lovejjfg/Circle)
 
 ---
 
